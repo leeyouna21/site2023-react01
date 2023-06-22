@@ -13,22 +13,20 @@ const Header = (props) => {
         <nav className="header__nav" role="navigation">
           <ul>
             <li>
-              <Link to="/intro">소개</Link>
+              <Link to="/intro">WELCOME !</Link>
+            </li>
+
+            <li>
+              <Link to="/port">좋아하는 책</Link>
             </li>
             <li>
-              <Link to="/member">맴버 소개</Link>
+              <Link to="/youtube">유튜브 추천</Link>
             </li>
             <li>
-              <Link to="/port">포트폴리오</Link>
+              <Link to="/unsplash">풍경 사진</Link>
             </li>
             <li>
-              <Link to="/youtube">유튜브</Link>
-            </li>
-            <li>
-              <Link to="/unsplash">이미지</Link>
-            </li>
-            <li>
-              <Link to="/movie">영화</Link>
+              <Link to="/movie">책 영화 추천</Link>
             </li>
           </ul>
         </nav>

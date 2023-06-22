@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Contents from "../layout/Contents";
 import ContTitle from "../layout/ContTitle";
 import MovieSlider from "../Movie/MovieSlider";
-import MovieSearch from "../Movie/MovieSearch";
 import MovieTag from "../Movie/MovieTag";
 import MovieCont from "../Movie/MovieCont";
 
@@ -30,9 +29,8 @@ const MoviePage = () => {
   return (
     <>
       <Contents>
-        <ContTitle title="movie" />
+        <ContTitle title="🎥 movie 🎥" />
         <MovieSlider movies={movies} />
-        <MovieSearch onSearch={search} />
         <MovieTag />
         <MovieCont movies={movies} />
       </Contents>

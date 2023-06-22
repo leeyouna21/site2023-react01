@@ -85,3 +85,19 @@
     border-radius: 30px;
   }
 }
+.movie__tag {
+  div {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    button {
+      border: 1px solid #dfd3c3;
+      padding: 10px 20px;
+      margin: 0 10px;
+      color: #815823;
+      border-radius: 15px;
+    }
+  }
+}
