@@ -1,0 +1,65 @@
+//youtube__wrap
+.unsplash__wrap {
+  overflow: hidden;
+}
+.unsplash__inner {
+  height: 500px;
+  .unsplash__text {
+    h3 {
+      font-size: 50px;
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 22px;
+      font-weight: 300;
+      margin-bottom: 30px;
+    }
+    a {
+      border-radius: 50px;
+    }
+  }
+  .unsplah__item {
+    @include flex-between;
+    margin-top: 70px;
+    position: absolute;
+    > div {
+      width: 400px;
+      margin-right: 20px;
+      img {
+        width: 100%;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+//unsplash__page
+.unsplash__cont {
+  ul {
+    column-count: 4;
+    column-gap: 20px;
+    li {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+//unsplash__search
+
+.unsplash__search {
+  text-align: center;
+  margin-bottom: 50px;
+
+  input {
+    border: 1px solid #dfd3c3;
+    font-size: 16px;
+    padding: 10px 20px;
+    min-width: 300px;
+    margin-right: 10px;
+    border-radius: 30px;
+  }
+  button {
+    @include button(#ad8869, #fff);
+    border-radius: 30px;
+  }
+}
