@@ -18,15 +18,15 @@ const portPage = () => {
           <div className="port__cont">
             <div className="port">
               <figure className="port__header">
-                <img src="./assets/images/port/book02.png" alt="멤버1" />
+                <img src="./assets/images/port/book7.png" alt="멤버1" />
               </figure>
               <div className="port__body">
                 <span>
-                  <img src="./assets/images/port/flower.png" alt="" />
+                  <img src="./assets/images/port/good.png" alt="" />
                 </span>
                 <div>
-                  <h4>민경희 작가</h4>
-                  <p>난 너의 모든 것을 닮고 싶은 사람 中</p>
+                  <h4>자철 저자</h4>
+                  <p>역행자 中</p>
                 </div>
               </div>
             </div>
@@ -36,7 +36,7 @@ const portPage = () => {
               </figure>
               <div className="port__body">
                 <span>
-                  <img src="./assets/images/port/flower.png" alt="" />
+                  <img src="./assets/images/port/good.png" alt="" />
                 </span>
                 <div>
                   <h4>민경희 작가</h4>
@@ -50,7 +50,7 @@ const portPage = () => {
               </figure>
               <div className="port__body">
                 <span>
-                  <img src="./assets/images/port/flower.png" alt="" />
+                  <img src="./assets/images/port/good.png" alt="" />
                 </span>
                 <div>
                   <h4>민경희 작가</h4>
@@ -64,7 +64,7 @@ const portPage = () => {
               </figure>
               <div className="port__body">
                 <span>
-                  <img src="./assets/images/port/flower.png" alt="" />
+                  <img src="./assets/images/port/good.png" alt="" />
                 </span>
                 <div>
                   <h4>Author</h4>
@@ -78,7 +78,7 @@ const portPage = () => {
               </figure>
               <div className="port__body">
                 <span>
-                  <img src="./assets/images/port/flower.png" alt="" />
+                  <img src="./assets/images/port/good.png" alt="" />
                 </span>
                 <div>
                   <h4>박웅현 작가</h4>
@@ -92,7 +92,7 @@ const portPage = () => {
               </figure>
               <div className="port__body">
                 <span>
-                  <img src="./assets/images/port/flower.png" alt="" />
+                  <img src="./assets/images/port/good.png" alt="" />
                 </span>
                 <div>
                   <h4>여덟단어</h4>

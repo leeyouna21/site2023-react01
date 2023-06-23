@@ -13,14 +13,6 @@ const movieTagList = [
     name: "최신 영화",
     url: "https://api.themoviedb.org/3/movie/upcoming",
   },
-  {
-    name: "인기 티비쇼",
-    url: "https://api.themoviedb.org/3/tv/popular",
-  },
-  {
-    name: "티비쇼 순위",
-    url: "https://api.themoviedb.org/3/tv/top_rated",
-  },
 ];
 
 const MovieTag = ({ onSearch }) => {
